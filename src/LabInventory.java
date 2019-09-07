@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.Date;
 /**
  * @author Akhilesh
- * 
+ * Inventory Management System for an Electronics Lab Store
  * Version 1.0
  */
 public class LabInventory {
