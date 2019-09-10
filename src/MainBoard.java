@@ -154,7 +154,7 @@ public class MainBoard extends Item {
 		return "MainBoard [getItemId()=" + getItemId() + ", getName()=" + getName()
 				+ ", getBrand()=" + getBrand() + ", getCategory()=" + getCategory() + ", getSupplierName()="
 				+ getSupplierName() + ", getSupplierContacts()=" + getSupplierContacts() + ", getPrice()=" + getPrice()
-				+ ", \ngetQuantity()=" + getQuantity() + ", powerConnectorType=" + powerConnectorType + ", numOfUsbPorts=" + numOfUsbPorts
+				+ ", getQuantity()=" + getQuantity() + ", powerConnectorType=" + powerConnectorType + ", numOfUsbPorts=" + numOfUsbPorts
 						+ ", numberOfRamSlots=" + numberOfRamSlots + "]";
 	}
 
