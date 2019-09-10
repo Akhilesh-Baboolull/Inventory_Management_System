@@ -151,6 +151,7 @@ public class MainBoard extends Item {
 
 	@Override
 	public String toString() {
+
 		return "MainBoard [itemId=" + getItemId() + ", name=" + getName() + ", brand=" + getBrand() + ", category=" + getCategory()
 				+ ", supplierName=" + getSupplierName() + ", supplierContacts=" + getSupplierContacts() + ", price=" + getPrice()
 				+ ", quantity=" + getQuantity() + ", powerConnectorType=" + powerConnectorType + ", numOfUsbPorts=" + numOfUsbPorts 
