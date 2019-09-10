@@ -151,14 +151,9 @@ public class PCs extends Item {
 
 	@Override
 	public String toString() {
-		return "PCs [getItemId()=" + getItemId() + ", getName()=" + getName() + ", getBrand()=" + getBrand() + ", getCategory()="
-				+ getCategory() + ", getSupplierName()=" + getSupplierName() + ", getSupplierContacts()="
-				+ getSupplierContacts() + ", getPrice()=" + getPrice() + ", getQuantity()=" + getQuantity() + 
-				"RamSize=" + RamSize + ", isMini=" + isMini + ", CPUModel=" + CPUModel + "]";
+		return "PCs [itemId=" + getItemId() + ", name=" + getName() + ", brand=" + getBrand() + ", category=" + getCategory()
+				+ ", supplierName=" + getSupplierName() + ", supplierContacts=" + getSupplierContacts() + ", price=" + getPrice()
+				+ ", quantity=" + getQuantity() + "RamSize=" + RamSize + ", isMini=" + isMini + ", CPUModel=" + CPUModel + "]";
 	}
-	
-	
-
-	
-	
+		
 }

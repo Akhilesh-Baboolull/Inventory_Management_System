@@ -165,5 +165,14 @@ public class Laptops extends Item {
 		}
 		
 	}
+
+	@Override
+	public String toString() {
+		return "Laptops [itemId=" + getItemId() + ", name=" + getName() + ", brand=" + getBrand() + ", category=" + getCategory()
+				+ ", supplierName=" + getSupplierName() + ", supplierContacts=" + getSupplierContacts() + ", price=" + getPrice()
+				+ ", quantity=" + getQuantity() + ",RamSize=" + RamSize + ", hasSSD=" + hasSSD + ", StorageSize=" + StorageSize + "]";
+	}
+	
+	
 	
 }

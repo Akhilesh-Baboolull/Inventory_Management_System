@@ -157,11 +157,4 @@ public class MainBoard extends Item {
 				+ ", numberOfRamSlots=" + numberOfRamSlots + "]";
 	}
 
-
-	
-	
-	
-	
-
-	
 }

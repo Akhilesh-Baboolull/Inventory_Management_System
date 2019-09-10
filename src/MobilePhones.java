@@ -182,5 +182,14 @@ public class MobilePhones extends Item {
 		}
 		
 	}
+
+	@Override
+	public String toString() {
+		return "MobilePhones [itemId=" + getItemId() + ", name=" + getName() + ", brand=" + getBrand() + ", category=" + getCategory()
+				+ ", supplierName=" + getSupplierName() + ", supplierContacts=" + getSupplierContacts() + ", price=" + getPrice()
+				+ ", quantity=" + getQuantity() + ", ram=" + ram + ", storage=" + storage + ", processor=" + processor + ", os=" + os + "]";
+	}
+	
+	
 	
 }
