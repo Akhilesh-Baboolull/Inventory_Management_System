@@ -11,9 +11,9 @@ public class PCs extends Item {
 	//assuming a minimum stock level of 20 is being maintained for PCs
 	private static final int MIN_QUANTITY = 20;
 	
-	int RamSize;
-	boolean isMini;
-	String CPUModel;
+	private int RamSize;
+	private boolean isMini;
+	private String CPUModel;
 	
 	/**
 	 * 
@@ -148,7 +148,17 @@ public class PCs extends Item {
 		}
 		
 	}
+
+	@Override
+	public String toString() {
+		return "PCs [getItemId()=" + getItemId() + ", getName()=" + getName() + ", getBrand()=" + getBrand() + ", getCategory()="
+				+ getCategory() + ", getSupplierName()=" + getSupplierName() + ", getSupplierContacts()="
+				+ getSupplierContacts() + ", getPrice()=" + getPrice() + ", getQuantity()=" + getQuantity() + 
+				"RamSize=" + RamSize + ", isMini=" + isMini + ", CPUModel=" + CPUModel + "]";
+	}
 	
 	
 
+	
+	
 }

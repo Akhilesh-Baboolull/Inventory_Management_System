@@ -79,7 +79,7 @@ public class LabInventory {
 			if(valid == true) {
 				txtwriter.close();
 				return -1;
-				
+			
 			}
 			else {
 				Date date = new Date();

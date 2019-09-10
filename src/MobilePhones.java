@@ -11,10 +11,10 @@ public class MobilePhones extends Item {
 	//assuming a minimum stock level of 50 is being maintained for Mobile Phones
 	private static final int MIN_QUANTITY = 50;
 	
-	int ram;
-	int storage;
-	String processor;
-	String os;
+	private int ram;
+	private int storage;
+	private String processor;
+	private String os;
 	
 	/**
 	 * 

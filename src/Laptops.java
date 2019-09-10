@@ -11,9 +11,9 @@ public class Laptops extends Item {
 	//assuming a minimum stock level of 20 is being maintained for Laptops
 	private static final int MIN_QUANTITY = 20;
 	
-	int RamSize;
-	boolean hasSSD;
-	int StorageSize;
+	private int RamSize;
+	private boolean hasSSD;
+	private int StorageSize;
 	
 	/**
 	 * 

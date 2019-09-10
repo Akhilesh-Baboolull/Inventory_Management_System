@@ -11,9 +11,9 @@ public class MainBoard extends Item {
 	//assuming a minimum stock level of 20 is being maintained for Main Boards
 	private static final int MIN_QUANTITY = 25;
 	
-	String powerConnectorType;
-	int numOfUsbPorts;
-	int numberOfRamSlots;
+	private String powerConnectorType;
+	private int numOfUsbPorts;
+	private int numberOfRamSlots;
 	
 	/**
 	 * 
@@ -151,11 +151,10 @@ public class MainBoard extends Item {
 
 	@Override
 	public String toString() {
-		return "MainBoard [getItemId()=" + getItemId() + ", getName()=" + getName()
-				+ ", getBrand()=" + getBrand() + ", getCategory()=" + getCategory() + ", getSupplierName()="
-				+ getSupplierName() + ", getSupplierContacts()=" + getSupplierContacts() + ", getPrice()=" + getPrice()
-				+ ", \ngetQuantity()=" + getQuantity() + ", powerConnectorType=" + powerConnectorType + ", numOfUsbPorts=" + numOfUsbPorts
-						+ ", numberOfRamSlots=" + numberOfRamSlots + "]";
+		return "MainBoard [itemId=" + getItemId() + ", name=" + getName() + ", brand=" + getBrand() + ", category=" + getCategory()
+				+ ", supplierName=" + getSupplierName() + ", supplierContacts=" + getSupplierContacts() + ", price=" + getPrice()
+				+ ", quantity=" + getQuantity() + ", powerConnectorType=" + powerConnectorType + ", numOfUsbPorts=" + numOfUsbPorts 
+				+ ", numberOfRamSlots=" + numberOfRamSlots + "]";
 	}
 
 
